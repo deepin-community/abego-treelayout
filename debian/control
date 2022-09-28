@@ -1,0 +1,26 @@
+Source: abego-treelayout
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ default-jdk,
+ junit4,
+ libmaven-bundle-plugin-java,
+ maven-debian-helper (>= 1.5)
+Standards-Version: 4.5.1
+Vcs-Git: https://salsa.debian.org/java-team/abego-treelayout.git
+Vcs-Browser: https://salsa.debian.org/java-team/abego-treelayout
+Homepage: http://treelayout.sourceforge.net
+
+Package: libtreelayout-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Efficient and customizable TreeLayout Algorithm in Java
+ The TreeLayout creates tree layouts for arbitrary trees. It is not restricted
+ to a specific output or format, but can be used for any kind of two dimensional
+ diagram. Examples are Swing based components, SVG files, and many more. This is
+ possible because TreeLayout separates the layout of a tree from the actual
+ rendering.

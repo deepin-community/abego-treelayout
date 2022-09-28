@@ -1,0 +1,28 @@
+abego-treelayout (1.0.3-2) unstable; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Use security copyright file URI.
+
+  [ Emmanuel Bourg ]
+  * Standards-Version updated to 4.5.1
+  * Switch to debhelper level 13
+  * Use salsa.debian.org Vcs-* URLs
+  * Removed debian/orig-tar.sh
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 21 Jan 2021 09:09:56 +0100
+
+abego-treelayout (1.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build with the DH sequencer instead of CDBS
+  * Standards-Version updated to 3.9.7 (no changes)
+  * Use a secure Vcs-Git URL
+  * Remove the website files from the upstream tarball
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 29 Mar 2016 16:39:49 +0200
+
+abego-treelayout (1.0.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #800579)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 01 Oct 2015 12:37:54 +0200
